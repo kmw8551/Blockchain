@@ -1,11 +1,11 @@
 ### Blockchain Practice 
 
+강의자료를 참고한 블록체인 작업증명 및 동작 코드 구현
+Blockchain A-Z™: Learn How To Build Your First Blockchain -> 참고 강의
 
 ``` python
 
-#module 1  Creating a Blockchain
-#To be installed 
-#Flask== 0.12.1
+
 #Postman HTTP Client:
 import datetime
 import hashlib
@@ -49,7 +49,7 @@ class  Blockchain:
             
             #만약 new_proof + previous_proof로 하면 대칭이 되버림
             #(previous_proof + new_proof)가 가능하게 된다는 소리,
-            #이건 대칭 암호화 이며 우리는 사용하지 않을 것임
+            #이건 대칭 암호화, 관련해서 사용하지 않을 것.
             
             if hash_operation[:4] == "0000":
                 check_proof = True
