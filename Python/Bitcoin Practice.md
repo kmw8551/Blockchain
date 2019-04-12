@@ -1,8 +1,11 @@
 ### Blockchain Practice 
 
+Instructor : Kirill Eremenko  
+
+Prepared by : Min Woong, Kang
+
 강의자료를 참고한 블록체인 작업증명 및 동작 코드 구현  
 
-Blockchain A-Z™: Learn How To Build Your First Blockchain -> 참고 강의  
 
 ``` python
 
